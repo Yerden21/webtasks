@@ -1,0 +1,31 @@
+.letters > div {
+    font-weight: bold;
+    background-color: darkred;
+    border-radius: 100%;
+    color: whitesmoke;
+    padding: 10px 20px 10px 25px;
+    font-size: 70px;
+    width: 60px;
+}
+.letters {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid darkred;
+}
+.task2 {
+    display: flex;
+}
+.left_part {
+    width: 100%;
+    padding: 150px 20px 150px 20px;
+    background-color: rosybrown;
+    font-size: 50px;
+}
+
+.right_part {
+    width: 100%;
+}
+
+.right_part > h3 {
+    text-align: center;
+}

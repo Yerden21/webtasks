@@ -1,0 +1,78 @@
+.overlay {
+    position: absolute; 
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.alert {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    background-color: white;
+    text-align: center;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid white;
+}
+header > nav > a:hover {
+    background-color: brown;
+}
+header > nav {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+section {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+}
+body {
+    margin: auto;    
+}
+.card {
+    border: 1px blue solid;
+    margin: 10px;
+    border-radius: 5px;
+    height: 200px;
+    display: inline-block;
+}
+.price {
+    position: relative;
+    left: 5px;
+    top: 10px;
+    text-align: center;
+}
+.title {
+    position: relative;
+    left: 0px;
+    top: -172px;
+    background-color: blue;
+    color: white;
+    width: max-content;
+    max-width: 110px;
+    padding: 2px;
+}
+.card > a > img {
+    background-color: white;
+    position: relative; 
+}
+.card > a {
+    z-index: 3;
+    background-color: white;
+    position: relative;
+    left: 115px;
+    top: -190px; 
+}

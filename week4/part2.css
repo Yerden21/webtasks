@@ -1,0 +1,38 @@
+.card {
+    border: 3px aquamarine solid;
+    display: flex;
+    margin: 20px;
+}
+.card img {
+    margin: 5px;
+}
+.info {
+    margin: 5px;
+}
+.desc {
+    font-size: 20px;
+}
+.price {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .card > img {
+        display: none;
+    }
+    .info {
+        display: flex;
+        margin: 5px;
+        width: 100%;
+    }
+    .info > a{
+        width: 100%;
+    }
+    .desc {
+        display: none;
+    }
+    .price {
+        margin: 0px;
+    } 
+}

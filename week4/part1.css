@@ -1,0 +1,16 @@
+#overlay {
+    position: fixed;
+    left: 1170px;
+    top: 480px;
+    border: 2px yellow solid;
+}
+.overlaycontent img {
+    margin: 0px 10px 10px 10px;
+}
+.overlaycontent {
+    background-color: red;
+}
+.note {
+    text-align: center;
+    font-weight: bold; 
+}

@@ -15,7 +15,17 @@ for (let i = 0; i < cars.length; i++) {
     icon.classList.add("basket");
     icons[i] = icon;
 }
-
+let but = document.createElement("button");
+but.innerHTML = "Zero All";
+but.addEventListener("click", function(e) {
+    items = 0;
+    total = 0;
+    document.querySelector("#items").innerHTML = items;
+    document.querySelector("#sum").innerHTML = total;
+    for (let i = 0; i < cars.length; i++) {
+        icons[i].src = basket;
+    }
+})
 for (let i = 0; i < cars.length; i++) {
     let div = document.createElement("div");
     let img = document.createElement("img");
@@ -43,5 +53,5 @@ for (let i = 0; i < cars.length; i++) {
     div.appendChild(img);
     div.appendChild(icons[i]);
     carsDiv.appendChild(div); 
-
+    document.querySelector("body").appendChild(but)
 } 
